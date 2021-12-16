@@ -1,0 +1,24 @@
+/*reset*/
+html{
+    font-size: 62.5%;
+   
+}
+body{
+    font: 1.6rem 'dosis', sans-serif;
+    margin: 0;
+}
+h1, h2, h3{
+    margin: 0;
+    font-weight: 400;
+}
+a{
+    text-decoration: none;
+    color: #222;
+    text-align: center;
+}
+input{
+    border: none;
+}
+*{
+    box-sizing: border-box;
+}
