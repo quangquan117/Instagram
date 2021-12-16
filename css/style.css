@@ -22,3 +22,19 @@ input{
 *{
     box-sizing: border-box;
 }
+
+/*theme*/
+:root{
+    --color-default: #000;
+    --color-warnig: rgb(200, 0, 0);
+    --color-sucsess: rgb(0, 200, 0);
+    --color-info: rgb(151, 151, 151);
+}
+main{
+    max-width: 40rem;
+    margin: 0 auto;
+}
+form{
+    border: solid .1rem transparent;
+
+}
