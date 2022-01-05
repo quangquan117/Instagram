@@ -106,7 +106,7 @@ ul{
     display: grid;
     grid-template-columns: calc(100% / 3) calc(100% / 3) calc(100% / 3);
 }
-p{
+ul p{
     color: var(--color-input);
 }
 ul li{
