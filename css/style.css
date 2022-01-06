@@ -57,6 +57,7 @@ fieldset input{
     display: block;
     width: 370px;
     margin-bottom: 1rem;
+    border-radius: 0.5rem;
     border: solid .2rem #ccc;
     line-height: 3.5rem;
     padding: .5rem;
@@ -109,11 +110,13 @@ fieldset p img{
     margin: 0;
     width: 2rem;
     height: auto;
+    transform: translateY(0.3rem);
 }
 #instagram_icon{
     margin: 0 0.5rem 0 0;
     width: 2rem;
     height: auto;
+    transform: translateY(0.3rem);
 }
 #Facebook{
     color: var(--color-facebook);
