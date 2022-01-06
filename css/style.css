@@ -4,7 +4,7 @@ html{
    
 }
 body{
-    font: 1.6rem 'dosis', sans-serif;
+    font: 1.6rem 'Monsterrat', sans-serif;
     margin: 0;
 }
 h1, h2, h3, ul{
@@ -36,6 +36,12 @@ input{
 }
 body{
     background-color: var(--color-input);
+}
+header p{
+    color: #c8c8c8;
+}
+.insta{
+    color: var(--color-default);
 }
 fieldset img, section img{
     width: 50%;
@@ -75,6 +81,24 @@ section a, form input[type="submit"]{
     color: rgb(0,200,0);
     display: block;
 }
+hr {
+    border: none;
+    border-top: .3rem solid #ccc;
+    color: #333;
+    overflow: visible;
+    text-align: center;
+    height: 5rem;
+    margin: 3rem auto 0;
+}
+hr:after {
+    background: #fff;
+    color: #ccc;
+    content: "ou";
+    font-size: 2rem;
+    padding: 0 1rem;
+    position: relative;
+    top: -13px;
+}
 p{
     text-align: center;
 }
@@ -98,7 +122,7 @@ footer img{
 ul{
     border: solid 0.1rem #ccc;
     max-width: 80rem;
-    margin: 9.0rem auto 1.0rem;
+    margin: 2.0rem auto 1.0rem;
     background-color: #000;
     overflow: hidden;
     list-style-type: none;
@@ -106,7 +130,7 @@ ul{
     grid-template-columns: calc(100% / 3) calc(100% / 3) calc(100% / 3);
 }
 ul p{
-    color: var(--color-input);
+        color: rgb(133, 133, 133);
 }
 ul li{
     width: 100%;
