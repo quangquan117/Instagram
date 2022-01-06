@@ -55,7 +55,7 @@ fieldset, section{
 }
 fieldset input{
     display: block;
-    width: 370px;
+    width: 37rem;
     margin-bottom: 1rem;
     border-radius: 0.5rem;
     border: solid .2rem #ccc;
@@ -132,9 +132,9 @@ footer img{
     width: calc(100% / 2 - 0.4rem);
 }
 ul{
-    border: solid 0.1rem #ccc;
+    border: solid 0.1rem var(--color-default);
     max-width: 80rem;
-    margin: 2.0rem auto 1.0rem;
+    margin: 0rem auto 1.0rem;
     background-color: #000;
     overflow: hidden;
     list-style-type: none;
@@ -145,10 +145,6 @@ ul li{
     width: 100%;
     color: rgb(133, 133, 133);
 }
-ul li:nth-child(2){
-    padding: 1rem;
-    font-size: larger;
-}
 ul li:nth-of-type(10){
     width: calc(100% / 1 - 11.0rem);
     margin: 0 auto;
@@ -156,4 +152,12 @@ ul li:nth-of-type(10){
 ul li img{
     width: 100%;
     margin: 0 auto;
+}
+main h2{
+    text-align: center;
+    padding: 1rem;
+    max-width: 80rem;
+    margin: 2.0rem auto 0;
+    background-color: #000;
+    color: #c8c8c8;
 }
