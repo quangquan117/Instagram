@@ -12,7 +12,7 @@ h1, h2, h3, ul{
     padding: 0;
     font-weight: 400;
 }
-a{
+a, p{
     text-decoration: none;
     color: #222;
     text-align: center;
@@ -37,15 +37,14 @@ input{
 body{
     background-color: var(--color-input);
 }
-h2{
-    text-align: center;
-    line-height: 10rem;
+fieldset img, section img{
+    width: 50%;
+    margin: 2rem 9rem;
 }
 fieldset, section{
     max-width: 40rem;
-    margin: 0 auto;
-    border: solid .1rem var(--color-info);
-    background-color: #fff;
+    margin: .5rem auto;
+    background-color: var(--color-info);
     border: solid .2rem #ccc;
 }
 fieldset input{
@@ -73,7 +72,7 @@ section a, form input[type="submit"]{
     display: none;
 }
 .success{
-    background-color: rgb(0,200,0);
+    color: rgb(0,200,0);
     display: block;
 }
 p{

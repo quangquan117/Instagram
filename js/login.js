@@ -7,7 +7,6 @@ document.addEventListener("DOMContentLoaded", e => {
     localStorage.setItem("mdp", "Play 200 games");
     let login = () => {
         warning = document.querySelector(".warning");
-        success = document.querySelector("success");
         email = document.getElementsByTagName("input")[0].value;
         mdp = document.getElementsByTagName("input")[1].value;
 
