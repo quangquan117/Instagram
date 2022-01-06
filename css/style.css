@@ -105,6 +105,16 @@ p{
 footer p, header p{
     line-height: 5rem;
 }
+fieldset p img{
+    margin: 0;
+    width: 2rem;
+    height: auto;
+}
+#instagram_icon{
+    margin: 0 0.5rem 0 0;
+    width: 2rem;
+    height: auto;
+}
 #Facebook{
     color: var(--color-facebook);
 }
