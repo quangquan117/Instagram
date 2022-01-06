@@ -129,8 +129,7 @@ footer{
     margin: 0 auto;
 }
 footer img{
-    width: 49.4%;
-    margin: 0 auto;
+    width: calc(100% / 2 - 0.4rem);
 }
 ul{
     border: solid 0.1rem #ccc;
